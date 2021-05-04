@@ -1,0 +1,41 @@
+.header{
+  background-color: darkslategray;
+  height: 70px;
+  position: sticky;
+  top: 5px;
+  }
+  .header  input[type=text] {
+      float: right;
+      padding: 6px;
+      border: 2px solid black;
+      width: 500px;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+   .header .logo{
+        padding: 3px 0 0 80px;
+        width: 140px;
+        height: 70px;
+    }
+    @media screen and (max-width: 600px) {
+       .header input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .header input[type=text] {
+        border: 1px solid rgb(12, 12, 12);
+      }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
